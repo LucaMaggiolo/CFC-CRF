@@ -17,9 +17,11 @@ Quick overview of **CFC-CRF**'s code structure:
 - **`Utils`**: Utilities functions used by the method.
 
 ##Data and Results
-- data: contains the original image data of the two considered datasets (Vaihingen and Potsdsam) and the poseriors obatined from the CNN models. Note: as a working example only the data corresponding to Vaihingen in combination con U-net are made available at this link: . 
-- Tensor-Clusers_data: location where the multiscale tensors and clustering partitions are stored. A precomputed working example is available.
+- data: contains the original image data of the two considered datasets (Vaihingen and Potsdsam) and the poseriors obatined from the CNN models. 
+- Tensor-Clusers_data: location where the multiscale tensors and clustering partitions are stored. 
 - results: directory where to store the results of CFC-CRF.
+
+Note: A working example corresponding to Vaihingen in combination con U-net is available at this link: https://drive.google.com/drive/folders/1OCw7Oa6Mbj-SbvslDACXnZBUprQDYVsg?usp=sharing . 
 
 ####Run the scripts
 
